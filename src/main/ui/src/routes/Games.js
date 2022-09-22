@@ -1,6 +1,14 @@
 import Container from "react-bootstrap/esm/Container";
 import {Row, Col, Card} from "react-bootstrap"
 import "../css/Card.css"
+
+
+
+/*
+TODO:
+Search function, dynamically load cards based on search and or filters
+
+*/
 const Games = () =>{
 
     return(
