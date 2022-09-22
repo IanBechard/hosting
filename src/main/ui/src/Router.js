@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './routes/Home';
 import Games from './routes/Games';
 
-const Main = () => {
+const Router = () => {
   return (
     <Routes>
         <Route exact path='/' element={<Home/>}></Route>
@@ -14,4 +14,4 @@ const Main = () => {
   );
 }
 
-export default Main;
+export default Router;

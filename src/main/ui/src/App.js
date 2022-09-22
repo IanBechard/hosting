@@ -1,5 +1,5 @@
 import './css/App.css';
-import Main from './Main';
+import Router from './Router';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
@@ -19,10 +19,11 @@ function App() {
             />
             Hosting Service Name
           </Navbar.Brand>
-          <Nav.Link as={Link} to="/games">Games</Nav.Link>
+          <Nav.Link as={Link} to="/games">About Us</Nav.Link>
+          <Nav.Link as={Link} to="/games">Game Servers</Nav.Link>
         </Container>
       </Navbar>
-      <Main />{/* Where routes are defiend*/}
+      <Router />{/* Where routes are defiend*/}
       <Outlet/>{/* Where routes are rendered*/}
     </div>
   );
