@@ -1,26 +1,32 @@
 .Box {
-    background: rgb(16, 16, 19);
+    background: rgb(10, 10, 11);
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: auto;
+    height: 20vh;
 }
 
 .Title {
         color: "green"; 
         text-align: "center"; 
         margin-top: "-50px";
-        font-size: 26px;
+        font-size: 22px;
         padding: 20px;
 }
 
 .Heading {
     color: #fff;
     margin-bottom: 20px;
-    font-size: 24px;
-    text-decoration: none;  
+    font-size: 18px;
+    text-decoration: none; 
+    text-align: left;
+    font-weight: bold;
 }
 
+.Element{
+    text-align: left;
+    font-size: 15px;
+}
 .Element:hover{
     color: rgb(14, 111, 230);
     transition: 200ms ease-in;

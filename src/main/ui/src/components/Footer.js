@@ -17,11 +17,11 @@ const Footer = () => {
                         <p>Ottawa, Ontario, Canada</p>
                     </Col>
                     <Col>
-                        <p className="Heading">About us</p>
+                        <p className="Heading">Popular Games</p>
 
-                        <p className="Element">asdfasdf</p>
-                        <p className="Element">asdfasdf</p>
-                        <p className="Element">asdfasdf</p>
+                        <p className="Element">Minecraft</p>
+                        <p className="Element">Rust</p>
+                        <p className="Element">ARK: Survival Evolved</p>
                     </Col>
                     <Col>
                         <p className="Heading">About us</p>

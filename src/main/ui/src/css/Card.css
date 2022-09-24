@@ -2,3 +2,38 @@
     background-color: aliceblue;
     scale: 0.9;
 }
+
+.Card:hover{
+    box-shadow: 20px 20px 5px #040404;
+    transition: 400ms;
+}
+
+.Fade {
+    transition: 400ms;
+}
+
+.Overlay{
+    margin-top: 125%;
+}
+
+.Button {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+

@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/esm/Container";
-import {Row, Col, Card} from "react-bootstrap"
-import "../css/Card.css"
+import {Row, Col} from "react-bootstrap"
+import Hovercard from "../components/Hovercard";
 
 
 
@@ -15,100 +15,79 @@ const Games = () =>{
         <Container>
             <Row>
                 <Col>
-                    <Card className="Card">
-                        <Card.Img 
-                        variant="top" 
-                        src="gamecards/minecraftCard.png"/>
-                        <Card.Title>Minecraft</Card.Title>
-                        <Card.Text>Starting at X.XX for 1GB</Card.Text>
-                    </Card>
+                    <Hovercard 
+                    title="Minecraft"
+                    imgsrc="gamecards/minecraftCard.png"
+                    text="Starting at 3.99 for 1gb"/>
                 </Col>
                 <Col>
-                    <Card className="Card">
-                        <Card.Img 
-                        variant="top" 
-                        src="gamecards/zomboidCard.png"/>
-                        <Card.Title>Project Zomboid</Card.Title>
-                        <Card.Text>Starting at X.XX for 1GB</Card.Text>
-                    </Card>
+                    <Hovercard
+                    title="Project Zomboid"
+                    imgsrc="gamecards/zomboidCard.png"
+                    text="Starting at x.xx for 3 slots"
+                    />
                 </Col>
                 <Col>
-                    <Card className="Card">
-                        <Card.Img 
-                        variant="top" 
-                        src="gamecards/csgoCard.png"/>
-                        <Card.Title>Counter Strike: Global Offensive</Card.Title>
-                        <Card.Text>Starting at X.XX for 1GB</Card.Text>
-                    </Card>
+                    <Hovercard
+                    title="Counter-Strike: GO"
+                    imgsrc="gamecards/csgoCard.png"
+                    text="Starting at x.xx for 3 slots"
+                    />
                 </Col>
             </Row>
             <Row>
                 <Col>
-                    <Card className="Card">
-                        <Card.Img 
-                        variant="top" 
-                        src="gamecards/dayZCard.png"/>
-                        <Card.Title>DayZ</Card.Title>
-                        <Card.Text>Starting at X.XX for 1GB</Card.Text>
-                    </Card>
+                    <Hovercard
+                    title="DayZ"
+                    imgsrc="gamecards/dayZCard.png"
+                    text="Starting at x.xx for 3 slots"
+                    />
                 </Col>
                 <Col>
-                    <Card className="Card">
-                        <Card.Img 
-                        variant="top" 
-                        src="gamecards/7daystodieCard.png"/>
-                        <Card.Title>7 Days To Die</Card.Title>
-                        <Card.Text>Starting at X.XX for 1GB</Card.Text>
-                    </Card>
+                    <Hovercard
+                    title="7 Days To Die"
+                    imgsrc="gamecards/7daystodieCard.png"
+                    text="Starting at x.xx for 3 slots"
+                    />
                 </Col>
                 <Col>
-                    <Card className="Card">
-                        <Card.Img 
-                        variant="top" 
-                        src="gamecards/mordhauCard.png"/>
-                        <Card.Title>Mordhau</Card.Title>
-                        <Card.Text>Starting at X.XX for 1GB</Card.Text>
-                    </Card>
+                    <Hovercard
+                    title="Mordhau"
+                    imgsrc="gamecards/mordhauCard.png"
+                    text="Starting at x.xx for 3 slots"
+                    />
                 </Col>
             </Row>
             <Row>
                 <Col>
-                    <Card className="Card">
-                        <Card.Img 
-                        variant="top" 
-                        src="gamecards/arkCard.png"/>
-                        <Card.Title>ARK: Survival Evolved</Card.Title>
-                        <Card.Text>Starting at X.XX for 1GB</Card.Text>
-                    </Card>
+                    <Hovercard
+                    title="ARK: Survival Evolved"
+                    imgsrc="gamecards/arkCard.png"
+                    text="Starting at x.xx for 3 slots"
+                    />
                 </Col>
                 <Col>
-                    <Card className="Card">
-                        <Card.Img 
-                        variant="top" 
-                        src="gamecards/rustCard.png"/>
-                        <Card.Title>Rust</Card.Title>
-                        <Card.Text>Starting at X.XX for 1GB</Card.Text>
-                    </Card>
+                    <Hovercard
+                    title="Rust"
+                    imgsrc="gamecards/rustCard.png"
+                    text="Starting at x.xx for 3 slots"
+                    />
                 </Col>
                 <Col>
-                    <Card className="Card">
-                        <Card.Img 
-                        variant="top" 
-                        src="gamecards/arma3Card.png"/>
-                        <Card.Title>Arma 3</Card.Title>
-                        <Card.Text>Starting at X.XX for 1GB</Card.Text>
-                    </Card>
+                    <Hovercard
+                    title="Arma 3"
+                    imgsrc="gamecards/arma3Card.png"
+                    text="Starting at x.xx for 3 slots"
+                    />
                 </Col>
             </Row>
             <Row>
                 <Col>
-                    <Card className="Card">
-                        <Card.Img 
-                        variant="top" 
-                        src="gamecards/gmodCard.png"/>
-                        <Card.Title>Garry's Mod</Card.Title>
-                        <Card.Text>Starting at X.XX for 1GB</Card.Text>
-                    </Card>
+                    <Hovercard
+                    title="Garry's Mod"
+                    imgsrc="gamecards/gmodCard.png"
+                    text="Starting at x.xx for 3 slots"
+                    />
                 </Col>
                 <Col>
                 </Col>
